@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- =====================================================================
+       Jalal Ahmmed: personal academic website
+       Live URL: https://mdtuhinkhan101.github.io/jalal-ahmmed/
+       (GitHub Pages project site, repository "jalal-ahmmed")
+
+       HOW THIS PAGE WORKS
+       - This file holds the page layout, navigation and SEO tags.
+       - All content (publications, metrics, education, collaborators...)
+         lives in data.json and is drawn into the empty containers below
+         by assets/js/main.js.
+       - To update the site, edit data.json only.
+
+       All paths are RELATIVE (no leading "/"), so the site works inside
+       the /jalal-ahmmed/ sub-folder on GitHub Pages.
+       ===================================================================== -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+  <!-- ---------- Primary SEO ---------- -->
+  <title>Jalal Ahmmed | Graduate Researcher in Explainable AI &amp; Computer Vision</title>
+  <meta name="description" content="Jalal Ahmmed is a Graduate Researcher in Explainable AI and Computer Vision at Daffodil International University, Dhaka, with first-author Q1 papers on medical imaging.">
+  <meta name="author" content="Jalal Ahmmed">
+  <meta name="keywords" content="Jalal Ahmmed, Jalal Ahmed, Graduate Researcher, Explainable AI, XAI, Computer Vision, Medical Imaging, Deep Learning, Daffodil International University, Kabir Research Group, LBNet, LSeTNet, HPrEd, Bangladesh">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+  <link rel="canonical" href="https://mdtuhinkhan101.github.io/jalal-ahmmed/">
+
+  <!-- Google Search Console: paste your verification code, then remove the comment marks.
+       (README.md, Part 2) -->
+  <!-- <meta name="google-site-verification" content="PASTE_YOUR_CODE_HERE"> -->
+
+  <!-- ---------- Open Graph (LinkedIn, Facebook, WhatsApp previews) ---------- -->
+  <meta property="og:type" content="profile">
+  <meta property="og:site_name" content="Jalal Ahmmed">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:url" content="https://mdtuhinkhan101.github.io/jalal-ahmmed/">
+  <meta property="og:title" content="Jalal Ahmmed | Graduate Researcher in Explainable AI &amp; Computer Vision">
+  <meta property="og:description" content="Graduate Researcher at Daffodil International University working on explainable, lightweight deep learning for medical imaging and agricultural AI.">
+  <meta property="og:image" content="https://mdtuhinkhan101.github.io/jalal-ahmmed/assets/img/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Jalal Ahmmed, Graduate Researcher in Explainable AI and Computer Vision">
+  <meta property="profile:first_name" content="Jalal">
+  <meta property="profile:last_name" content="Ahmmed">
+
+  <!-- ---------- Twitter / X card ---------- -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Jalal Ahmmed | Graduate Researcher in Explainable AI &amp; Computer Vision">
+  <meta name="twitter:description" content="Explainable, lightweight deep learning for medical imaging and agricultural AI. Daffodil International University, Dhaka.">
+  <meta name="twitter:image" content="https://mdtuhinkhan101.github.io/jalal-ahmmed/assets/img/og-image.jpg">
+  <meta name="twitter:image:alt" content="Jalal Ahmmed, Graduate Researcher in Explainable AI and Computer Vision">
+
+  <!-- ---------- Icons, manifest, theme colour ---------- -->
+  <link rel="icon" href="favicon.ico" sizes="48x48">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#F5F7FA" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0D1526" media="(prefers-color-scheme: dark)">
+
+  <!-- ---------- Identity links: connect this page to your profiles ---------- -->
+  <link rel="me" href="https://github.com/mdtuhinkhan101">
+  <link rel="me" href="https://scholar.google.com/citations?user=fum87g0AAAAJ&amp;hl=en">
+  <link rel="me" href="https://www.linkedin.com/in/jalal-ahmmed-71476237a/">
+  <link rel="me" href="https://www.researchgate.net/profile/Jalal-Ahmmed">
+  <link rel="me" href="https://orcid.org/0009-0008-2873-5224">
+
+  <!-- ---------- Fonts ---------- -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&amp;family=Public+Sans:wght@400;500;600&amp;display=swap">
+
+  <!-- ---------- Pre-compiled Tailwind CSS (fast; no CDN script) ---------- -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="preload" as="image" href="assets/img/jalal-ahmmed-640.webp" type="image/webp">
+
+  <!-- Apply the saved colour theme before the page paints (prevents a flash) -->
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem('theme');
+        var dark = saved ? saved === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+        if (dark) document.documentElement.classList.add('dark');
+      } catch (e) {}
+    })();
+  </script>
+
+  <!-- ---------- Structured data (Schema.org) ----------
+       This is a fallback copy. When the page loads, main.js replaces it with a
+       complete version built from data.json (Person + every publication). -->
+  <script type="application/ld+json" id="structured-data">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "ProfilePage",
+        "@id": "https://mdtuhinkhan101.github.io/jalal-ahmmed/#profilepage",
+        "url": "https://mdtuhinkhan101.github.io/jalal-ahmmed/",
+        "name": "Jalal Ahmmed | Graduate Researcher in Explainable AI & Computer Vision",
+        "mainEntity": { "@id": "https://mdtuhinkhan101.github.io/jalal-ahmmed/#person" }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://mdtuhinkhan101.github.io/jalal-ahmmed/#person",
+        "name": "Jalal Ahmmed",
+        "alternateName": ["Jalal Ahmed", "J. Ahmmed"],
+        "url": "https://mdtuhinkhan101.github.io/jalal-ahmmed/",
+        "image": "https://mdtuhinkhan101.github.io/jalal-ahmmed/assets/img/jalal-ahmmed.jpg",
+        "jobTitle": "Graduate Researcher",
+        "worksFor": { "@type": "CollegeOrUniversity", "name": "Daffodil International University", "url": "https://daffodilvarsity.edu.bd/" },
+        "knowsAbout": ["Explainable Artificial Intelligence", "Computer Vision", "Medical Imaging", "Deep Learning"],
+        "sameAs": [
+          "https://github.com/mdtuhinkhan101",
+          "https://scholar.google.com/citations?user=fum87g0AAAAJ&hl=en",
+          "https://www.linkedin.com/in/jalal-ahmmed-71476237a/",
+          "https://www.researchgate.net/profile/Jalal-Ahmmed",
+          "https://orcid.org/0009-0008-2873-5224"
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded focus:bg-ink focus:px-4 focus:py-2 focus:text-paper">Skip to content</a>
+
+  <!-- =====================================================================
+       HEADER / NAVIGATION
+       ===================================================================== -->
+  <header class="sticky top-0 z-40 border-b border-line/80 bg-paper/90 backdrop-blur dark:border-night-3/80 dark:bg-night/90">
+    <div class="wrap flex h-16 items-center justify-between gap-4">
+      <a href="#home" class="font-serif text-xl font-semibold text-ink no-underline hover:no-underline dark:text-mist">Jalal Ahmmed</a>
+
+      <nav aria-label="Main" class="hidden xl:block">
+        <ul class="flex items-center gap-0.5">
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#metrics">Metrics</a></li>
+          <li><a class="nav-link" href="#education">Education</a></li>
+          <li><a class="nav-link" href="#experience">Experience</a></li>
+          <li><a class="nav-link" href="#publications">Publications</a></li>
+          <li><a class="nav-link" href="#projects">Projects</a></li>
+          <li><a class="nav-link" href="#collaborators">Network</a></li>
+          <li><a class="nav-link" href="#open-source">Open source</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="flex items-center gap-2">
+        <button id="theme-toggle" type="button" class="icon-link" aria-label="Switch to dark mode" title="Toggle dark mode">
+          <svg class="dark:hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+          <svg class="hidden dark:block" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2.2M12 19.8V22M4.9 4.9l1.6 1.6M17.5 17.5l1.6 1.6M2 12h2.2M19.8 12H22M4.9 19.1l1.6-1.6M17.5 6.5l1.6-1.6"/></svg>
+        </button>
+        <button id="menu-toggle" type="button" class="icon-link xl:hidden" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <nav id="mobile-nav" aria-label="Main" class="hidden border-t border-line bg-paper xl:hidden dark:border-night-3 dark:bg-night">
+      <ul class="wrap grid grid-cols-2 gap-1 py-4 sm:grid-cols-3">
+        <li><a class="nav-link block" href="#about">About</a></li>
+        <li><a class="nav-link block" href="#metrics">Metrics</a></li>
+        <li><a class="nav-link block" href="#education">Education</a></li>
+        <li><a class="nav-link block" href="#experience">Experience</a></li>
+        <li><a class="nav-link block" href="#publications">Publications</a></li>
+        <li><a class="nav-link block" href="#projects">Projects</a></li>
+        <li><a class="nav-link block" href="#collaborators">Collaborators</a></li>
+        <li><a class="nav-link block" href="#skills">Skills</a></li>
+        <li><a class="nav-link block" href="#service">Review activities</a></li>
+        <li><a class="nav-link block" href="#open-source">Open source</a></li>
+        <li><a class="nav-link block" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- =====================================================================
+         1. HERO (name is static for SEO; the rest comes from data.json)
+         ===================================================================== -->
+    <section id="home" class="wrap grid items-center gap-12 pb-20 pt-14 sm:pt-20 lg:grid-cols-[1.15fr_1fr] lg:gap-16">
+      <div>
+        <p class="muted text-[0.98rem]" id="hero-position">Graduate Researcher in Computer Science and Engineering<br>Daffodil International University, Dhaka, Bangladesh</p>
+
+        <h1 class="mt-5 text-[3.4rem] font-medium leading-[0.98] tracking-[-0.015em] sm:text-[5.2rem] lg:text-[5.8rem]">Jalal Ahmmed</h1>
+
+        <p class="mt-6 max-w-prose text-xl leading-relaxed text-ink/90 dark:text-mist/90" id="hero-tagline">
+          Graduate Researcher in Explainable AI and Computer Vision at Daffodil International University, building lightweight, interpretable deep learning models for medical imaging and agriculture.
+        </p>
+
+        <ul class="mt-8 flex flex-wrap gap-2.5" id="hero-links" aria-label="Research profiles"></ul>
+
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a class="btn-primary" href="#publications">Read publications</a>
+          <a class="btn-ghost" id="cv-link" href="assets/docs/Jalal_Ahmmed_CV.pdf" download>Download CV (PDF)</a>
+        </div>
+      </div>
+
+      <!-- Signature element: Grad-CAM-style attention map behind the portrait -->
+      <figure class="relative mx-auto w-full max-w-[460px]">
+        <div id="attention" class="relative aspect-square overflow-hidden rounded-xl border border-line dark:border-night-3">
+          <canvas id="attention-canvas" class="absolute inset-0 h-full w-full" aria-hidden="true"></canvas>
+          <picture>
+            <source id="hero-photo-webp" srcset="assets/img/jalal-ahmmed-640.webp" type="image/webp">
+            <img id="hero-photo" src="assets/img/jalal-ahmmed-640.jpg" alt="Portrait of Jalal Ahmmed, Graduate Researcher in Explainable AI"
+                 width="640" height="640" fetchpriority="high"
+                 class="absolute left-1/2 top-1/2 h-[52%] w-[52%] -translate-x-1/2 -translate-y-1/2 rounded-full object-cover shadow-[0_12px_40px_-12px_rgba(19,32,58,0.45)] ring-[6px] ring-heat">
+          </picture>
+        </div>
+        <figcaption class="muted mt-3 text-sm">An attention map in the style of Grad-CAM, the method I use to show where a model is looking. Move your pointer over it.</figcaption>
+      </figure>
+    </section>
+
+    <!-- Shown only if data.json cannot be loaded -->
+    <div id="load-error" class="wrap hidden pb-10" role="alert"></div>
+
+    <!-- =====================================================================
+         2. ABOUT
+         ===================================================================== -->
+    <section id="about" class="section" aria-labelledby="about-title">
+      <div class="wrap section-grid">
+        <h2 id="about-title" class="section-title">About me</h2>
+        <div class="max-w-prose space-y-5">
+          <div id="about-text" class="space-y-5"><p class="skeleton"></p><p class="skeleton"></p></div>
+          <h3 class="pt-4 text-2xl font-medium">Research interests</h3>
+          <ul class="flex flex-wrap gap-2" id="interests" aria-label="Research interests"></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         3. RESEARCH METRICS
+         ===================================================================== -->
+    <section id="metrics" class="section" aria-labelledby="metrics-title">
+      <div class="wrap section-grid">
+        <h2 id="metrics-title" class="section-title">Research metrics</h2>
+        <div>
+          <dl class="grid gap-10 sm:grid-cols-3" id="metrics-list"></dl>
+          <div id="citations-chart" class="mt-12 hidden"></div>
+          <p class="muted mt-8 text-sm" id="metrics-source"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         4. EDUCATION (+ honours and achievements)
+         ===================================================================== -->
+    <section id="education" class="section" aria-labelledby="education-title">
+      <div class="wrap section-grid">
+        <h2 id="education-title" class="section-title">Education</h2>
+        <div class="max-w-prose">
+          <ol class="timeline" id="education-list"></ol>
+          <h3 class="mt-14 text-2xl font-medium">Honours and achievements</h3>
+          <ul class="mt-5 space-y-5" id="achievements-list"></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         5. RESEARCH EXPERIENCE
+         ===================================================================== -->
+    <section id="experience" class="section" aria-labelledby="experience-title">
+      <div class="wrap section-grid">
+        <h2 id="experience-title" class="section-title">Research experience</h2>
+        <ol class="timeline max-w-prose" id="experience-list"></ol>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         6. PUBLICATIONS (filters + sorting + citation counts)
+         ===================================================================== -->
+    <section id="publications" class="section" aria-labelledby="publications-title">
+      <div class="wrap section-grid">
+        <h2 id="publications-title" class="section-title">Publications</h2>
+        <div>
+          <p class="max-w-prose" id="pub-intro">Peer-reviewed work by Jalal Ahmmed. The full and current list is on Google Scholar.</p>
+          <div class="no-print mt-6 flex flex-wrap items-center justify-between gap-4">
+            <div class="flex flex-wrap gap-2" role="group" aria-label="Filter publications" id="pub-filters"></div>
+            <label class="muted flex items-center gap-2 text-sm">Sort by
+              <select id="pub-sort" class="sort-select">
+                <option value="year">Newest first</option>
+                <option value="citations">Most cited</option>
+              </select>
+            </label>
+          </div>
+          <p class="sr-only" aria-live="polite" id="pub-status"></p>
+          <div id="pub-list" class="mt-4"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         7. SELECTED RESEARCH PROJECTS
+         ===================================================================== -->
+    <section id="projects" class="section" aria-labelledby="projects-title">
+      <div class="wrap section-grid">
+        <h2 id="projects-title" class="section-title">Selected research projects</h2>
+        <div>
+          <div class="space-y-6" id="projects-list"></div>
+          <h3 class="pt-12 text-2xl font-medium">Under review and in progress</h3>
+          <ul class="mt-5 max-w-prose space-y-4" id="ongoing-list"></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         8. INTERNATIONAL COLLABORATORS
+         ===================================================================== -->
+    <section id="collaborators" class="section" aria-labelledby="collab-title">
+      <div class="wrap section-grid">
+        <h2 id="collab-title" class="section-title">International research network</h2>
+        <div>
+          <p class="max-w-prose" id="collab-summary"></p>
+          <ul class="mt-5 flex flex-wrap gap-2" id="country-list" aria-label="Countries"></ul>
+          <figure class="mt-8">
+            <div id="network-graph" class="overflow-x-auto"></div>
+            <figcaption class="muted mt-2 text-sm">Each line is a co-authorship. Thicker lines and larger dots mean more joint publications.</figcaption>
+          </figure>
+          <ul class="mt-12 grid gap-x-10 gap-y-6 md:grid-cols-2" id="collab-list"></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         9. SKILLS
+         ===================================================================== -->
+    <section id="skills" class="section" aria-labelledby="skills-title">
+      <div class="wrap section-grid">
+        <h2 id="skills-title" class="section-title">Skills</h2>
+        <dl class="grid gap-x-10 gap-y-8 md:grid-cols-2" id="skills-list"></dl>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         10. EDITORIAL & REVIEW ACTIVITIES
+         ===================================================================== -->
+    <section id="service" class="section" aria-labelledby="service-title">
+      <div class="wrap section-grid">
+        <h2 id="service-title" class="section-title">Editorial and review</h2>
+        <div class="grid gap-10 md:grid-cols-2">
+          <div>
+            <h3 class="text-2xl font-medium">Journal reviewer</h3>
+            <ul class="mt-4 space-y-3" id="reviewer-list"></ul>
+          </div>
+          <div>
+            <h3 class="text-2xl font-medium">Conference committees</h3>
+            <ul class="mt-4 space-y-3" id="committee-list"></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         11. OPEN SOURCE / GITHUB REPOSITORIES
+         ===================================================================== -->
+    <section id="open-source" class="section" aria-labelledby="oss-title">
+      <div class="wrap section-grid">
+        <h2 id="oss-title" class="section-title">Open source</h2>
+        <div>
+          <p class="max-w-prose" id="oss-intro">Code for my papers and side projects, all on GitHub.</p>
+          <div class="mt-8 grid gap-5 md:grid-cols-2" id="repo-list"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         12. CONTACT
+         ===================================================================== -->
+    <section id="contact" class="section" aria-labelledby="contact-title">
+      <div class="wrap section-grid">
+        <h2 id="contact-title" class="section-title">Contact</h2>
+        <div class="max-w-prose" id="contact-body"></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =====================================================================
+       FOOTER
+       ===================================================================== -->
+  <footer class="border-t border-line py-10 dark:border-night-3">
+    <div class="wrap flex flex-col items-start justify-between gap-6 sm:flex-row sm:items-center">
+      <div>
+        <p class="font-serif text-lg font-medium">Jalal Ahmmed</p>
+        <p class="muted text-sm">Graduate Researcher in Explainable AI and Computer Vision, Daffodil International University</p>
+        <p class="muted mt-1 text-sm">© <span id="year">2026</span> Jalal Ahmmed. <span id="last-updated"></span></p>
+      </div>
+      <ul class="flex flex-wrap gap-2.5" id="footer-links" aria-label="Profiles"></ul>
+    </div>
+  </footer>
+
+  <!-- Fallback for visitors with JavaScript turned off -->
+  <noscript>
+    <div class="wrap pb-16">
+      <p class="load-error">This site loads its content with JavaScript. Jalal Ahmmed’s publications are also listed on
+        <a href="https://scholar.google.com/citations?user=fum87g0AAAAJ&amp;hl=en">Google Scholar</a> and
+        <a href="https://orcid.org/0009-0008-2873-5224">ORCID</a>.</p>
+    </div>
+  </noscript>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

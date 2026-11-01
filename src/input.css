@@ -1,0 +1,220 @@
+/* =====================================================================
+   Source stylesheet for Tailwind CSS.
+   Edit this file (and tailwind.config.js), then run `npm run build`
+   to regenerate assets/css/style.css.
+   ===================================================================== */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------- Base ---------- */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem; /* keeps section headings clear of the sticky header */
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    @apply bg-paper text-ink font-sans antialiased dark:bg-night dark:text-mist;
+    font-size: 1.0625rem;
+    line-height: 1.65;
+  }
+  h1, h2, h3 {
+    @apply font-serif text-ink dark:text-mist;
+    font-optical-sizing: auto;
+  }
+  a {
+    @apply text-teal underline-offset-4 decoration-1 hover:underline dark:text-teal-bright;
+  }
+  :focus-visible {
+    @apply outline-none ring-2 ring-teal ring-offset-2 ring-offset-paper dark:ring-teal-bright dark:ring-offset-night;
+  }
+  ::selection {
+    @apply bg-heat/60 text-ink;
+  }
+}
+
+/* ---------- Reusable components ---------- */
+@layer components {
+  /* Page-width wrapper */
+  .wrap {
+    @apply mx-auto w-full max-w-6xl px-5 sm:px-8;
+  }
+
+  /* Each content section: heading column on the left, content on the right (desktop) */
+  .section {
+    @apply border-t border-line py-16 sm:py-20 dark:border-night-3;
+  }
+  .section-grid {
+    @apply grid gap-8 lg:grid-cols-[13rem_1fr] lg:gap-12;
+  }
+  /* Let grid columns shrink so wide content (e.g. the network graph) scrolls inside its own box */
+  .section-grid > * {
+    min-width: 0;
+  }
+  .section-title {
+    @apply text-3xl font-medium leading-tight sm:text-4xl lg:sticky lg:top-24 lg:self-start;
+  }
+
+  /* Small secondary text */
+  .muted {
+    @apply text-slate dark:text-fog;
+  }
+
+  /* Buttons */
+  .btn {
+    @apply inline-flex items-center gap-2 rounded-md px-4 py-2.5 text-[0.95rem] font-semibold no-underline transition-colors hover:no-underline;
+  }
+  .btn-primary {
+    @apply btn bg-ink text-paper hover:bg-teal dark:bg-mist dark:text-night dark:hover:bg-teal-bright;
+  }
+  .btn-ghost {
+    @apply btn border border-line text-ink hover:border-ink dark:border-night-3 dark:text-mist dark:hover:border-mist;
+  }
+
+  /* Round profile icon links (hero, contact, footer) */
+  .icon-link {
+    @apply inline-flex h-10 w-10 items-center justify-center rounded-full border border-line text-ink no-underline transition-colors hover:border-teal hover:bg-teal hover:text-white dark:border-night-3 dark:text-mist dark:hover:border-teal-bright dark:hover:bg-teal-bright dark:hover:text-night;
+  }
+  .icon-link svg {
+    @apply h-[18px] w-[18px];
+  }
+
+  /* Keyword tags */
+  .tag {
+    @apply inline-block rounded border border-line bg-white px-2.5 py-1 text-sm text-ink dark:border-night-3 dark:bg-night-2 dark:text-mist;
+  }
+
+  /* Small status badges on publications */
+  .badge {
+    @apply inline-block rounded px-2 py-0.5 text-xs font-semibold;
+  }
+  .badge-q1 {
+    @apply badge bg-heat/30 text-ink dark:bg-heat/20 dark:text-heat;
+  }
+  .badge-first {
+    @apply badge bg-teal/10 text-teal dark:bg-teal-bright/15 dark:text-teal-bright;
+  }
+
+  /* Small text links under a publication / repository */
+  .meta-link {
+    @apply inline-flex items-center gap-1 rounded border border-line px-2 py-0.5 text-sm font-medium no-underline hover:border-teal hover:no-underline dark:border-night-3 dark:hover:border-teal-bright;
+  }
+
+  /* Publication entries */
+  .pub {
+    @apply grid gap-x-6 gap-y-1 border-b border-line py-6 last:border-b-0 sm:grid-cols-[4rem_1fr] dark:border-night-3;
+  }
+  .pub-year {
+    @apply font-serif text-lg text-slate dark:text-fog;
+  }
+  .pub-title {
+    @apply font-serif text-xl font-medium leading-snug;
+  }
+  .pub-title a {
+    @apply text-ink dark:text-mist;
+  }
+  .pub-authors strong {
+    @apply font-semibold text-ink dark:text-mist;
+  }
+
+  /* Publication filter buttons */
+  .filter-btn {
+    @apply rounded-full border border-line px-3.5 py-1.5 text-sm font-medium text-ink transition-colors hover:border-ink dark:border-night-3 dark:text-mist dark:hover:border-mist;
+  }
+  .filter-btn[aria-pressed='true'] {
+    @apply border-ink bg-ink text-paper dark:border-mist dark:bg-mist dark:text-night;
+  }
+
+  /* Timeline (education, experience) */
+  .timeline {
+    @apply relative space-y-10 border-l border-line pl-7 dark:border-night-3;
+  }
+  .timeline-item::before {
+    content: '';
+    @apply absolute -left-[5px] mt-2.5 h-[9px] w-[9px] rounded-full bg-teal ring-4 ring-paper dark:bg-teal-bright dark:ring-night;
+  }
+
+  /* Surface blocks (projects, repositories) */
+  .panel {
+    @apply rounded-lg border border-line bg-white p-6 dark:border-night-3 dark:bg-night-2;
+  }
+
+  /* Navigation */
+  .nav-link {
+    @apply rounded px-2.5 py-1.5 text-[0.93rem] font-medium text-slate no-underline hover:text-ink hover:no-underline dark:text-fog dark:hover:text-mist;
+  }
+  .nav-link[aria-current='true'] {
+    @apply text-ink dark:text-mist;
+    box-shadow: inset 0 -2px 0 currentColor;
+  }
+
+
+  /* Research metrics (citations, h-index, i10-index) */
+  .metric {
+    @apply border-l-2 border-teal pl-5 dark:border-teal-bright;
+  }
+  .metric-value {
+    @apply font-serif text-6xl font-medium leading-none text-ink sm:text-7xl dark:text-mist;
+    font-variant-numeric: lining-nums tabular-nums;
+  }
+  .metric-label {
+    @apply mt-3 font-medium text-ink dark:text-mist;
+  }
+
+  /* Citation count on a publication */
+  .cite-count {
+    @apply inline-flex items-center gap-1.5 rounded bg-ink px-2 py-0.5 text-xs font-semibold text-paper dark:bg-mist dark:text-night;
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Collaborator entries */
+  .collab {
+    @apply border-t border-line pt-4 dark:border-night-3;
+  }
+  .collab-name {
+    @apply font-serif text-xl font-medium;
+  }
+  .country-chip {
+    @apply inline-flex items-center gap-2 rounded-full border border-line px-3 py-1 text-sm font-medium dark:border-night-3;
+  }
+
+  /* Network graph */
+  .net-edge { stroke: #C9D3DF; }
+  .dark .net-edge { stroke: #2A3A5C; }
+  .net-node-text { @apply fill-ink text-[14px] font-semibold dark:fill-mist; }
+  .net-sub-text { @apply fill-slate text-[12px] dark:fill-fog; }
+
+  /* Loading and error states while data.json is fetched */
+  .skeleton {
+    @apply h-4 w-2/3 animate-pulse rounded bg-line dark:bg-night-3;
+  }
+  .load-error {
+    @apply rounded-lg border border-heat bg-heat/10 p-5 text-ink dark:text-mist;
+  }
+
+  /* Small sort select for publications */
+  .sort-select {
+    @apply rounded-md border border-line bg-white px-3 py-1.5 text-sm font-medium text-ink dark:border-night-3 dark:bg-night-2 dark:text-mist;
+  }
+
+  /* BibTeX block */
+  .bibtex pre {
+    @apply mt-3 overflow-x-auto rounded-md bg-ink p-4 text-[0.8rem] leading-relaxed text-mist dark:bg-black/40;
+  }
+}
+
+/* Respect users who prefer less motion */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition: none !important; animation: none !important; }
+}
+
+/* Print: clean black-on-white CV-style output */
+@media print {
+  header, footer, .no-print, #attention { display: none !important; }
+  body { background: #fff !important; color: #000 !important; }
+  .section { padding: 1.25rem 0 !important; }
+  a { color: #000 !important; text-decoration: none !important; }
+}

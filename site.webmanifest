@@ -1,0 +1,14 @@
+{
+  "name": "Jalal Ahmmed",
+  "short_name": "Jalal Ahmmed",
+  "description": "Graduate Researcher in Explainable AI and Computer Vision",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F5F7FA",
+  "theme_color": "#13203A",
+  "icons": [
+    { "src": "assets/img/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/img/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

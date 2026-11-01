@@ -1,0 +1,547 @@
+{
+  "meta": {
+    "lastUpdated": "2026-11-01",
+    "siteUrl": "https://mdtuhinkhan101.github.io/jalal-ahmmed/"
+  },
+
+  "profile": {
+    "name": "Jalal Ahmmed",
+    "alternateNames": ["Jalal Ahmed", "J. Ahmmed"],
+    "authorNames": ["Jalal Ahmmed", "J. Ahmmed"],
+    "position": "Graduate Researcher",
+    "department": "Department of Computer Science and Engineering",
+    "university": "Daffodil International University",
+    "universityUrl": "https://daffodilvarsity.edu.bd/",
+    "location": "Dhaka, Bangladesh",
+    "group": "Kabir Research Group",
+    "role": "Research Assistant",
+    "supervisor": {
+      "name": "Md. Alamgir Kabir, PhD",
+      "url": "https://scholar.google.com/citations?user=ubGvRG0AAAAJ&hl=en"
+    },
+    "tagline": "I build lightweight deep learning models for medical imaging and agriculture, and make them explain themselves.",
+    "email": "ahmmed22205101088@diu.edu.bd",
+    "phone": "+880 1862 467753",
+    "photo": "assets/img/jalal-ahmmed-640.jpg",
+    "photoWebp": "assets/img/jalal-ahmmed-640.webp",
+    "photoAlt": "Portrait of Jalal Ahmmed, Graduate Researcher in Explainable AI",
+    "cv": "assets/docs/Jalal_Ahmmed_CV.pdf",
+    "about": ["I’m **Jalal Ahmmed**, a graduate researcher in the Department of Computer Science and Engineering at **Daffodil International University** in Dhaka, Bangladesh. As a research assistant in the Kabir Research Group, I design deep learning models that are small enough to run on modest hardware and transparent enough to be trusted when the stakes are high.", "My work spans medical imaging (mammography, neuroimaging and leukemia), agricultural AI (medicinal plant and mango leaf disease) and educational data mining. I pair lightweight architectures (compact CNNs, CNN–Transformer hybrids and CNN–spiking neural network hybrids) with explainability methods such as Grad-CAM, SHAP and LIME, so each prediction comes with evidence that a clinician, farmer or educator can check.", "I’m first author of three Q1 journal articles in *Scientific Reports* (Nature Portfolio) and *IEEE Access*, written with collaborators at Hamad Bin Khalifa University in Qatar and Mälardalen University in Sweden. I’m now preparing for graduate study in trustworthy, resource-efficient artificial intelligence."],
+    "interests": ["Computer Vision", "Explainable AI (XAI)", "Deep Learning", "Medical Imaging", "Ensemble Learning", "Agricultural AI", "Trustworthy Machine Learning", "Model Interpretability (SHAP, LIME, Grad-CAM)", "Spiking Neural Networks (SNN)", "Federated Learning"]
+  },
+
+  "links": [
+    {
+      "label": "Google Scholar",
+      "icon": "scholar",
+      "url": "https://scholar.google.com/citations?user=fum87g0AAAAJ&hl=en"
+    },
+    {
+      "label": "ORCID",
+      "icon": "orcid",
+      "url": "https://orcid.org/0009-0008-2873-5224"
+    },
+    {
+      "label": "ResearchGate",
+      "icon": "researchgate",
+      "url": "https://www.researchgate.net/profile/Jalal-Ahmmed"
+    },
+    {
+      "label": "GitHub",
+      "icon": "github",
+      "url": "https://github.com/mdtuhinkhan101"
+    },
+    {
+      "label": "LinkedIn",
+      "icon": "linkedin",
+      "url": "https://www.linkedin.com/in/jalal-ahmmed-71476237a/"
+    }
+  ],
+
+  "metrics": {
+    "citations": 29,
+    "hIndex": 3,
+    "i10Index": 1,
+    "asOf": "November 2026",
+    "source": "Google Scholar",
+    "sourceUrl": "https://scholar.google.com/citations?user=fum87g0AAAAJ&hl=en",
+    "citationsByYear": []
+  },
+
+  "education": [
+    {
+      "degree": "B.Sc. in Computer Science and Engineering",
+      "institution": "Daffodil International University, Dhaka, Bangladesh",
+      "period": "July 2022 – July 2026",
+      "result": "CGPA 3.78 / 4.00",
+      "details": ["Thesis: LBSpikeNet: A Lightweight Hybrid CNN–SNN Framework with Explainable AI for Multi-Brain Disease Classification (brain tumor, Alzheimer’s disease and stroke)"]
+    },
+    {
+      "degree": "Higher Secondary Certificate (Science)",
+      "institution": "Shaheed Ramiz Uddin Cantonment College, Dhaka",
+      "period": "2021",
+      "result": "GPA 5.00 / 5.00",
+      "details": []
+    },
+    {
+      "degree": "Secondary School Certificate (Science)",
+      "institution": "Gazirhat High School, Senbagh, Noakhali",
+      "period": "2019",
+      "result": "GPA 4.83 / 5.00",
+      "details": []
+    }
+  ],
+
+  "achievements": [
+    {
+      "year": "2026",
+      "title": "IELTS Academic, overall band 6.5 (CEFR B2)",
+      "detail": "Listening 6.5, Reading 7.0, Writing 7.0, Speaking 6.0"
+    },
+    {
+      "year": "2026",
+      "title": "Three first-author Q1 journal articles",
+      "detail": "Scientific Reports (×2) and IEEE Access"
+    },
+    {
+      "year": "2024",
+      "title": "50% tuition fee waiver for extraordinary academic performance",
+      "detail": "Awarded by Daffodil International University for a perfect SGPA of 4.00 / 4.00 in Fall 2024"
+    },
+    {
+      "year": "2023",
+      "title": "YCamp: Prepare to Rise and Lead, youth leadership bootcamp",
+      "detail": "Human Resource Development Institute, Daffodil International University"
+    }
+  ],
+
+  "experience": [
+    {
+      "role": "Research Assistant, Kabir Research Group",
+      "organization": "Department of CSE, Daffodil International University, Dhaka",
+      "period": "February 2025 – present",
+      "supervisor": "Md. Alamgir Kabir, PhD",
+      "supervisorUrl": "https://scholar.google.com/citations?user=ubGvRG0AAAAJ&hl=en",
+      "points": ["Research on explainable AI and ensemble learning for medical and agricultural applications.", "Designed lightweight CNN, CNN–Transformer and CNN–SNN models for mammography, neuroimaging and plant disease classification.", "Built and published two open datasets on Mendeley Data.", "Led model evaluation (cross-validation, ablation studies, external validation, statistical testing) and manuscript preparation for Q1 journals.", "Collaborated with researchers at Hamad Bin Khalifa University (Qatar) and Mälardalen University (Sweden)."]
+    },
+    {
+      "role": "Volunteer Team Leader, flood relief",
+      "organization": "Nondir Para, Senbagh, Noakhali",
+      "period": "2024",
+      "points": ["Led a local volunteer team during the 2024 floods, coordinating the distribution of food, clean water and medicine to affected families."]
+    }
+  ],
+
+  "publications": [
+    {
+      "id": "lbnet",
+      "short": "LBNet",
+      "type": "journal",
+      "title": "LBNet: An Optimized Lightweight CNN for Mammographic Breast Cancer Classification with XAI-Based Interpretability",
+      "authors": ["Jalal Ahmmed", "Faruk Ahmed", "Md Alamgir Kabir", "Md Taimur Ahad", "Mehreen Afsar Jadoon", "Atiq ur Rehman", "Amine Bermak"],
+      "year": 2025,
+      "venue": "Scientific Reports",
+      "venueDetail": "Nature Portfolio, vol. 16, art. 2013",
+      "publisher": "Springer Nature",
+      "doi": "10.1038/s41598-025-31642-6",
+      "url": "https://doi.org/10.1038/s41598-025-31642-6",
+      "code": "",
+      "dataset": "",
+      "citations": 14,
+      "quartile": "Q1",
+      "firstAuthor": true,
+      "summary": "A five-layer CNN with only 2.4M trainable parameters: 97.28% accuracy on RSNA, 99.54% on CBIS-DDSM and 98.50% on MIAS, with SHAP and Grad-CAM highlighting the diagnostically relevant regions of each mammogram."
+    },
+    {
+      "id": "lsetnet",
+      "short": "LSeTNet",
+      "type": "journal",
+      "title": "A Lightweight Hybrid CNN and Transformer Model for Medicinal Leaf Disease Classification with Explainable AI",
+      "authors": ["Jalal Ahmmed", "Md Alamgir Kabir", "Atiq ur Rehman", "Amine Bermak"],
+      "year": 2026,
+      "venue": "Scientific Reports",
+      "venueDetail": "Nature Portfolio, vol. 16, art. 8243",
+      "publisher": "Springer Nature",
+      "doi": "10.1038/s41598-026-39182-3",
+      "url": "https://doi.org/10.1038/s41598-026-39182-3",
+      "code": "https://github.com/mdtuhinkhan101/LSeTNet",
+      "dataset": "https://data.mendeley.com/datasets/ncg7kk3gwx/2",
+      "citations": 8,
+      "quartile": "Q1",
+      "firstAuthor": true,
+      "summary": "Introduces **LSeTNet**, a CNN–Transformer hybrid with squeeze-and-excitation blocks: 99.72% accuracy across 12 disease classes of Tulsi, Neem and Patharkuchi with 9.38M parameters, 99.42% on an external dataset, and Grad-CAM, LIME and t-SNE explanations."
+    },
+    {
+      "id": "mango",
+      "short": "Mango leaf disease (arXiv)",
+      "type": "preprint",
+      "title": "Fine-Tuned CNN-Based Approach for Multi-Class Mango Leaf Disease Detection",
+      "authors": ["Jalal Ahmmed", "Faruk Ahmed", "Rashedul Hasan Shohan", "Md. Mahabub Rana", "Mahdi Hasan"],
+      "year": 2025,
+      "venue": "arXiv",
+      "venueDetail": "arXiv:2510.05326 [cs.CV]",
+      "publisher": "arXiv",
+      "doi": "10.48550/arXiv.2510.05326",
+      "url": "https://arxiv.org/abs/2510.05326",
+      "code": "",
+      "dataset": "",
+      "citations": 5,
+      "quartile": "",
+      "firstAuthor": true,
+      "summary": "Compares five fine-tuned CNNs on eight mango leaf classes; DenseNet201 performs best at 99.33% accuracy."
+    },
+    {
+      "id": "hpred",
+      "short": "HPrEd",
+      "type": "journal",
+      "title": "HPrEd: A Tuned Ensemble with Model-Agnostic XAI to Explain Social Media’s Association with Academic Productivity",
+      "authors": ["Jalal Ahmmed", "Faruk Ahmed", "Md Alamgir Kabir", "Nazakat Ali", "Atiq ur Rehman", "Amine Bermak"],
+      "year": 2026,
+      "venue": "IEEE Access",
+      "venueDetail": "vol. 14, pp. 25193–25214",
+      "publisher": "IEEE",
+      "doi": "10.1109/ACCESS.2026.3663639",
+      "url": "https://doi.org/10.1109/ACCESS.2026.3663639",
+      "code": "https://github.com/mdtuhinkhan101/HPrEd",
+      "dataset": "https://data.mendeley.com/datasets/zv45t3hx2r/2",
+      "citations": 2,
+      "quartile": "Q1",
+      "firstAuthor": true,
+      "summary": "A soft-voting ensemble of Extra Trees, k-NN and MLP reaching 98.25% recall with a 0.53% false-alarm rate. SHAP and LIME identify which social media habits are tied to lower academic productivity."
+    },
+    {
+      "id": "aii-feature-selection",
+      "short": "Chi-Square vs PCA",
+      "type": "conference",
+      "title": "Impact of Feature Selection on Classification: Comparing Chi-Square and PCA",
+      "authors": ["J. Ahmmed", "J. N. Ema", "M. A. Kabir", "A. Z. M. J. Uddin", "T. Bhuiyan"],
+      "year": 2025,
+      "venue": "AII 2025",
+      "venueDetail": "5th International Conference on Applied Intelligence and Informatics, Washington, D.C., USA. Springer CCIS, Scopus indexed",
+      "url": "",
+      "citations": null,
+      "firstAuthor": true
+    },
+    {
+      "id": "rve",
+      "short": "RVE",
+      "type": "conference",
+      "title": "RVE: An Optimized Ensemble Model for Breast Cancer Detection",
+      "authors": ["J. Ahmmed", "F. Ahmed", "M. A. Kabir", "A. Zahid", "M. J. Uddin", "T. Bhuiyan"],
+      "year": 2025,
+      "venue": "TEHI 2025",
+      "venueDetail": "5th International Conference on Trends in Electronics and Health Informatics, Samarkand State University, Uzbekistan",
+      "url": "",
+      "citations": null,
+      "firstAuthor": true
+    },
+    {
+      "id": "xclboost",
+      "short": "XCLBoost",
+      "type": "conference",
+      "title": "XCLBoost: Soft Voting Ensemble and Explainable AI for Modeling Student AI Adoption",
+      "authors": ["J. Ahmmed", "Y. Arafat", "M. N. Islam", "S. Sangit", "M. M. Rana", "M. M. Islam"],
+      "year": 2025,
+      "venue": "BIM 2025",
+      "venueDetail": "3rd International Conference on Big Data, IoT and Machine Learning, Dhaka, Bangladesh",
+      "url": "",
+      "citations": null,
+      "firstAuthor": true
+    },
+    {
+      "id": "hybridrelr",
+      "short": "HybridRELR",
+      "type": "conference",
+      "title": "HybridRELR: A Model-Agnostic XAI-Driven Stacking Ensemble for Detecting Financial Fraud",
+      "authors": ["J. Ahmmed", "M. M. Rana", "A. Sarower", "A. Arafat", "M. N. Islam", "I. Hossain"],
+      "year": 2025,
+      "venue": "BIM 2025",
+      "venueDetail": "3rd International Conference on Big Data, IoT and Machine Learning, Dhaka, Bangladesh",
+      "url": "",
+      "citations": null,
+      "firstAuthor": true
+    },
+    {
+      "id": "drx",
+      "short": "DRX Ensemble",
+      "type": "conference",
+      "title": "DRX Ensemble: An Optimized Rank-Based Deep CNN Model for Java Plum Leaf Disease Classification",
+      "authors": ["F. Ahmed", "M. Hasan", "S. Hossain", "F. Ahmed", "M. K. Hasan", "J. Ahmmed"],
+      "year": 2025,
+      "venue": "ICCCNT 2025",
+      "venueDetail": "16th IEEE International Conference on Computing, Communication and Networking Technologies, IIT Indore, India",
+      "url": "",
+      "citations": null,
+      "firstAuthor": false
+    },
+    {
+      "id": "epx-hdc",
+      "short": "EPX-HDC",
+      "type": "conference",
+      "title": "EPX-HDC: An Explainable Gradient-Boosting Model for Heart Disease Classification Using LIME",
+      "authors": ["M. M. Rana", "J. Ahmmed", "M. A. Kabir", "A. Zahid", "M. J. Uddin", "T. Bhuiyan"],
+      "year": 2025,
+      "venue": "TEHI 2025",
+      "venueDetail": "5th International Conference on Trends in Electronics and Health Informatics, Samarkand State University, Uzbekistan",
+      "url": "",
+      "citations": null,
+      "firstAuthor": false
+    },
+    {
+      "id": "dataset-social-media",
+      "short": "Social media dataset",
+      "type": "dataset",
+      "title": "Dataset on Social Media Usage, Academic Performance, and Productivity Behaviors among Students",
+      "authors": ["J. Ahmmed", "F. Ahmed"],
+      "year": 2026,
+      "venue": "Mendeley Data",
+      "venueDetail": "Version 2",
+      "url": "https://data.mendeley.com/datasets/zv45t3hx2r/2",
+      "citations": null,
+      "firstAuthor": true
+    },
+    {
+      "id": "dataset-medicinal-leaf",
+      "short": "Medicinal leaf dataset",
+      "type": "dataset",
+      "title": "Medicinal Plant Leaf Disease Dataset",
+      "authors": ["J. Ahmmed", "M. A. Kabir", "A. U. Rehman", "A. Bermak"],
+      "year": 2026,
+      "venue": "Mendeley Data",
+      "venueDetail": "Version 2",
+      "url": "https://data.mendeley.com/datasets/ncg7kk3gwx/2",
+      "citations": null,
+      "firstAuthor": true
+    }
+  ],
+
+  "projects": [
+    {
+      "name": "LBSpikeNet",
+      "label": "B.Sc. thesis, 2025–2026. Lead researcher",
+      "subtitle": "A lightweight hybrid CNN–SNN framework with explainable AI for multi-brain-disease classification",
+      "description": "Combines convolutional feature extraction with spiking neural network layers to classify brain tumor, Alzheimer’s disease and stroke from neuroimaging. Accuracy of 99.24%, 99.30% and 98.00% on the three datasets, interpreted with Grad-CAM, Grad-CAM++, LIME and t-SNE.",
+      "links": []
+    },
+    {
+      "name": "LBNet",
+      "label": "2025. Published in *Scientific Reports*",
+      "subtitle": "Lightweight CNN for mammographic breast cancer classification",
+      "description": "A 2.4M-parameter CNN built for resource-constrained screening settings: 97.28% accuracy on RSNA and up to 99.54% on external datasets, with SHAP and Grad-CAM for transparency.",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1038/s41598-025-31642-6"
+        }
+      ]
+    },
+    {
+      "name": "LSeTNet",
+      "label": "2026. Published in *Scientific Reports*",
+      "subtitle": "Hybrid CNN–Transformer for medicinal leaf disease",
+      "description": "99.72% accuracy over 12 disease classes at 6.98 ms per image and 2.50 GFLOPs, small enough for real-time use on edge devices.",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1038/s41598-026-39182-3"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/mdtuhinkhan101/LSeTNet"
+        }
+      ]
+    },
+    {
+      "name": "HPrEd",
+      "label": "2026. Published in *IEEE Access*",
+      "subtitle": "Explainable ensemble for social media and academic productivity",
+      "description": "A tuned soft-voting ensemble (Extra Trees, k-NN, MLP) reaching 98.25% recall with a 0.53% false-alarm probability, with SHAP and LIME revealing the behaviours behind each prediction.",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1109/ACCESS.2026.3663639"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/mdtuhinkhan101/HPrEd"
+        }
+      ]
+    }
+  ],
+
+  "ongoing": [
+    {
+      "title": "LightHCF: Lightweight Hybrid CNN–Transformer with Explainable AI for Multiclass Acute Lymphoblastic Leukemia Classification",
+      "status": "Submitted to *IEEE Open Journal of the Computer Society*. Lead author"
+    },
+    {
+      "title": "Hybrid CNN–SNN Framework for Lung Cancer Detection",
+      "status": "Manuscript in preparation for *IEEE Transactions on Medical Imaging*. Lead author"
+    }
+  ],
+
+  "collaborators": [
+    {
+      "name": "Amine Bermak",
+      "title": "IEEE Fellow",
+      "department": "College of Science and Engineering",
+      "institution": "Hamad Bin Khalifa University",
+      "country": "Qatar",
+      "highlight": true,
+      "url": "",
+      "matchNames": ["Amine Bermak", "A. Bermak"]
+    },
+    {
+      "name": "Atiq ur Rehman",
+      "title": "",
+      "department": "College of Science and Engineering",
+      "institution": "Hamad Bin Khalifa University",
+      "country": "Qatar",
+      "highlight": true,
+      "url": "",
+      "matchNames": ["Atiq ur Rehman", "Atiq Ur Rehman", "A. U. Rehman"]
+    },
+    {
+      "name": "Nazakat Ali",
+      "title": "",
+      "department": "School of Innovation, Design and Engineering",
+      "institution": "Mälardalen University",
+      "country": "Sweden",
+      "highlight": true,
+      "url": "",
+      "matchNames": ["Nazakat Ali", "N. Ali"]
+    },
+    {
+      "name": "Mehreen Afsar Jadoon",
+      "title": "",
+      "department": "College of Public Policy",
+      "institution": "Hamad Bin Khalifa University",
+      "country": "Qatar",
+      "highlight": false,
+      "url": "",
+      "matchNames": ["Mehreen Afsar Jadoon"]
+    },
+    {
+      "name": "Md Alamgir Kabir",
+      "title": "Assistant Professor, supervisor",
+      "department": "Department of Computer Science and Engineering",
+      "institution": "Daffodil International University",
+      "country": "Bangladesh",
+      "highlight": true,
+      "url": "https://scholar.google.com/citations?user=ubGvRG0AAAAJ&hl=en",
+      "matchNames": ["Md Alamgir Kabir", "M. A. Kabir"]
+    },
+    {
+      "name": "Faruk Ahmed",
+      "title": "",
+      "department": "Department of Software Engineering",
+      "institution": "Daffodil International University",
+      "country": "Bangladesh",
+      "highlight": false,
+      "url": "",
+      "matchNames": ["Faruk Ahmed", "F. Ahmed"]
+    },
+    {
+      "name": "Md Taimur Ahad",
+      "title": "",
+      "department": "Department of Management Information Systems",
+      "institution": "Independent University, Bangladesh",
+      "country": "Bangladesh",
+      "highlight": false,
+      "url": "",
+      "matchNames": ["Md Taimur Ahad"]
+    }
+  ],
+
+  "skills": [
+    {
+      "group": "Programming",
+      "items": ["Python", "C/C++", "SQL", "JavaScript", "PHP"]
+    },
+    {
+      "group": "Deep learning frameworks",
+      "items": ["PyTorch", "TensorFlow", "Keras", "scikit-learn", "OpenCV", "NumPy", "Pandas", "Matplotlib", "Seaborn"]
+    },
+    {
+      "group": "AI and machine learning",
+      "items": ["Computer vision", "Medical image analysis", "Transfer learning", "Ensemble learning", "Spiking neural networks", "Federated learning", "NLP"]
+    },
+    {
+      "group": "Explainable AI",
+      "items": ["SHAP", "LIME", "Grad-CAM", "Grad-CAM++", "t-SNE", "Feature importance"]
+    },
+    {
+      "group": "Research methods",
+      "items": ["Experimental design", "Dataset development", "Ablation studies", "Cross-validation", "Hyperparameter optimisation", "Statistical analysis"]
+    },
+    {
+      "group": "Writing and tools",
+      "items": ["LaTeX / Overleaf", "Peer review", "Git and GitHub", "Jupyter", "Google Colab", "Kaggle", "Mendeley"]
+    },
+    {
+      "group": "Software development",
+      "items": ["Flutter", "Laravel", "REST APIs", "Web-based ML applications", "Model deployment"]
+    }
+  ],
+
+  "service": {
+    "reviewer": [
+      {
+        "journal": "Education and Information Technologies",
+        "detail": "Springer, SCI-indexed, Q1"
+      },
+      {
+        "journal": "IEEE Open Journal of the Computer Society",
+        "detail": "IEEE, SCI-indexed, Q1"
+      },
+      {
+        "journal": "International Journal of Computational Intelligence Systems",
+        "detail": "Springer, SCI-indexed, Q1"
+      }
+    ],
+    "committees": [
+      {
+        "name": "ICECER 2026",
+        "role": "Review committee member",
+        "detail": "International Conference on Electrical and Computer Engineering Research, Topkapi University, Istanbul"
+      },
+      {
+        "name": "ACDSA 2027",
+        "role": "Review committee member",
+        "detail": "International Conference on Artificial Intelligence, Computer, Data Sciences and Applications"
+      }
+    ]
+  },
+
+  "repositories": [
+    {
+      "name": "HPrEd",
+      "url": "https://github.com/mdtuhinkhan101/HPrEd",
+      "description": "Tuned ensemble learning framework with SHAP and LIME explanations for analysing how social media use relates to academic productivity. Companion code for the *IEEE Access* paper.",
+      "tech": ["Python", "scikit-learn", "SHAP", "LIME"]
+    },
+    {
+      "name": "LSeTNet",
+      "url": "https://github.com/mdtuhinkhan101/LSeTNet",
+      "description": "Lightweight hybrid CNN–Transformer with explainable AI for medicinal leaf disease classification and agricultural decision support. Companion code for the *Scientific Reports* paper.",
+      "tech": ["Python", "Deep learning", "Grad-CAM", "LIME"]
+    },
+    {
+      "name": "Bangla Suspicious Text Detection",
+      "url": "https://github.com/mdtuhinkhan101/NLP_Bangla_Suspicious_Text_Detection",
+      "description": "CNN–BiLSTM–Attention model for classifying abusive and suspicious Bangla text, with custom preprocessing and feature extraction.",
+      "tech": ["Python", "NLP", "CNN–BiLSTM", "Attention"]
+    },
+    {
+      "name": "Intrusion Detection System (CIC-IDS2017)",
+      "url": "https://github.com/mdtuhinkhan101/intrusion-detection-cic-ids2017",
+      "description": "Network intrusion detection with Random Forest and Extra Trees ensembles, explained with LIME.",
+      "tech": ["Python", "scikit-learn", "LIME", "Cybersecurity"]
+    }
+  ],
+
+  "contact": {
+    "message": "I’m open to research collaborations and graduate study opportunities in explainable AI, computer vision and medical imaging.",
+    "address": "Department of CSE, Daffodil International University, Dhaka, Bangladesh"
+  }
+}
